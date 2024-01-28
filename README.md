@@ -1,2 +1,2 @@
 # HTML
-Diretório para praticas em Html
+Diretório para práticas em Html
