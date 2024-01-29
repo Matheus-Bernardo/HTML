@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    margin: 0; /* Remova as margens padrão do body */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 350px;
+    text-align: center;
+}
+
+h1, p {
+    text-align: center;
+    color: aliceblue;
+}
+
+span {
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+.fotoPessoal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+  
+    border-radius: 10px;
+    width: 100px;
+   
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin-top: 10px;
+}
+
+.botao-linkedin {
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: auto;
+    
+}
+.botao-git {
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: 5px;
+    
+}
+
+table,tr{
+    margin-left:auto;
+    color: bisque;
+    
+}
+
+.java-logo{
+    width: 200px;
+    margin-left: auto;
+}
