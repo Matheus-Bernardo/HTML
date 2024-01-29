@@ -1,79 +1,58 @@
-body {
-    background-color: black;
-    margin: 0; /* Remova as margens padrão do body */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    margin-top: 350px;
-    text-align: center;
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
-h1, p {
-    text-align: center;
-    color: aliceblue;
-}
-
-span {
+.titulo-destaque{
     color: #22D4FD;
-    border: 1px solid #22D4FD;
-    padding: 10px;
 }
 
-.fotoPessoal {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    width: 200px;
-}
-
-.logo {
-    display: block;
-    margin-left: auto;
-  
-    border-radius: 10px;
-    width: 100px;
-   
-}
-
-div {
+.apresentacao{
+    margin: 10% 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-a{
-    margin-top: 10px;
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
 }
 
-.botao-linkedin {
-    background-color: aqua;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: bolder;
-    margin-left: auto;
-    
-}
-.botao-git {
-    background-color: aqua;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: bolder;
-    margin-right: auto;
-    margin-left: 5px;
-    
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-table,tr{
-    margin-left:auto;
-    color: bisque;
-    
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
 }
 
-.java-logo{
-    width: 200px;
-    margin-left: auto;
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
